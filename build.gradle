@@ -45,3 +45,7 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter:5.5.2"
     testCompile "io.pravega:pravega-standalone:${pravegaVersion}"
 }
+
+shadowJar {
+    zip64 true
+}
